@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hw1</title>
+    <link rel="stylesheet" href="{% static 'Style/1_04.css' %}">
+</head>
+<body>
+    <div class="block1">
+        <div class="header">
+                <div class="logo1">
+                    <a href="https://www.facebook.com"><img src="{% static 'image/facebook.png' %}" id="logos"></a>
+                    <a href="https://www.twitter.com"><img src="{% static 'image/twitter.png' %}" id="logos"></a>
+                    <a href="https://www.linkedin.com"><img src="{% static 'image/linkedin.png' %}" id="logos"></a>
+                    <a href="https://www.instagram.com"><img src="{% static 'image/instagram.png' %}" id="logos"></a>
+                </div>
+                
+                <div class="header-top">
+                    <a href=""><img src="https://dc-prod-blog.sfo2.digitaloceanspaces.com/uploads/2015/07/Coka-Cola-logo.jpg" alt="Coka-Cola-logo" class="header-logo"></a>
+                </div>
+    
+                <div class="header-right"></div>
+    
+            <div class="header-middle">
+                <ul>
+                    <li><a href="https://writeologytemplate.webflow.io">HOME</a></li>
+                    <li id="pages">
+                        PAGES
+                        <div id="pages-icon" style="background-image: url({% static 'image/down-arrow.png' %}); float: right;"></div>
+                        <div id="pages-block">
+                            <ul>
+                                <li>PAGES</li>
+                                <li>Home</li>
+                                <li>Home (Premium)</li>
+                                <li>Blog Post</li>
+                                <li>Blog Post (Premium)</li>
+                            </ul>
+                            <ul>
+                                <li>UTILITY PAGES</li>
+                            </ul> 
+                        </div>
+                    </li>
+                    <li id="categories">
+                        CATEGORIES
+                        <div id="pages-icon" style="background-image: url({% static 'image/down-arrow.png' %}); float: right;"></div>
+                        <div id="categories-block">
+                            <ul>
+                                <li>Tips</li>
+                                <li>Resoursec</li>
+                                <li>Guieds</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="https://writeologytemplate.webflow.io/contact">CONTACT</a></li>
+                    <li><a href="https://writeologytemplate.webflow.io/subscribe">SUBSCRIBE</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="block2">
+        <div class="a">
+            <div class="hello">
+                <a href="#" class="b">
+                    <div class="block-img1"><img src="https://assets.website-files.com/62abc23e594f83d9d66b136f/62abe9db6517db41e66bf261_digital-management-thumbnail-blog-writelogy-x-webflow-template-.jpg" alt="" id="b-i-1"></div> 
+                </a>
+                
+    
+                <div class="block-text">
+                    <div class="block-text-1">
+                        <a href="#" id="b-t-1">
+                            <div class="text1">TIPS</div>
+                            <h2 class="text2">How to choose the best management software</h2>
+                        </a>
+                    </div>
+    
+                    <div class="block-text-2">
+                        <a href="#" id="b-t-2">
+                            <div class="text3">TIPS</div>
+                            <h2 class="text4">3 tips to avoid Internet distractions at work</h2>
+                        </a>
+                    </div>
+    
+                    <div class="block-text-3">
+                        <a href="#" id="b-t-3">
+                            <div class="text5">RESOURCES</div>
+                            <h2 class="text6">7 great productivity apps for your new iPad</h2>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="block3">
+        <div class="block4">
+            <div class="padding">
+                <div class="block-img2">
+                    <div class="img-text">Lastest articles</div>
+    
+                    <div id="block-img-text">
+                        <div class="img-text1">
+                            <a href="https://writeologytemplate.webflow.io/blog/how-to-choose-the-best-management-software-2" class="a1">
+                                <div class="division1_1 division1_2 division1_3">
+                                    <div class="img1"><img src="https://assets.website-files.com/62abc23e594f83d9d66b136f/62abe99991773809b3eb0313_management-thumbnail-blog-writelogy-x-webflow-template.jpg" alt="ipad" id="img1"></div>
+    
+                                    <div class="img-text1-block-text">
+                                        <div class="img-text1-text1">TIPS</div>
+                                        <h2 class="img-text1-text2">How to choose the best management software</h2>
+                                        <p class="img-text1-text3">Viverra tristique gravida dolor vel aenean egestas libero enim consequat arcu augue euismod est.</p>
+                                        <div class="img-text1-text4">
+                                            <div class="person1">
+                                                <div class="foto1"><img src="{% static 'image/profile-man.png' %}" alt="foto" id="foto1"></div>
+                                                <div class="name1">John Carter</div>
+                                            </div>
+                                            <div class="time1">
+                                                <div class="icon1"><img src="{% static 'image/clock.png' %}" alt="clock" id="icon1"></div>
+                                                <div class="time1-time">June 18, 2022</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+    
+                        <div class="img-text2">
+                            <a href="https://writeologytemplate.webflow.io/blog/10-productivity-tools-that-are-worth-checking-out" class="a2">
+                                <div class="division2_1 division2_2 division2_3">
+                                    <div class="img2"><img src="https://assets.website-files.com/62abc23e594f83d9d66b136f/62abe96825e3ea16e4fbacb5_productivity-apps-thumbnail-blog-writelogy-x-webflow-template.jpeg" alt="macbook" id="img2"></div>
+    
+                                    <div class="img-text2-block-text">
+                                        <div class="img-text2-text1">RESOURCES</div>
+                                        <h2 class="img-text2-text2">10 productivity tools that are worth checking out</h2>
+                                        <p class="img-text2-text3">Viverra tristique gravida dolor vel aenean egestas libero enim consequat arcu augue euismod est.</p>
+                                        <div class="img-text2-text4">
+                                            <div class="person2">
+                                                <div class="foto2"><img src="{% static 'image/profile-women.png' %}" alt="foto" id="foto2"></div>
+                                                <div class="name2">Sophie Moore</div>
+                                            </div>
+                                            <div class="time2">
+                                                <div class="icon2"><img src="{% static 'image/clock.png' %}" alt="clock" id="icon2"></div>
+                                                <div class="time2-time">June 16, 2022</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+    
+                        <div class="img-text3">
+                            <a href="https://writeologytemplate.webflow.io/blog/3-tips-to-avoid-internet-distractions-at-work" class="a3">
+                                <div class="division3_1 division3_2 division3_3">
+                                    <div class="img3"><img src="https://assets.website-files.com/62abc23e594f83d9d66b136f/62abe8525409f6f9c1c7ab22_avoid-distractions-thumbnail-blog-writelogy-x-webflow-template-.jpg" alt="macbook and human" id="img3"></div>
+    
+                                    <div class="img-text3-block-text">
+                                        <div class="img-text3-text1">TIPS</div>
+                                        <h2 class="img-text3-text2">3 tips to avoid Internet distractions at work</h2>
+                                        <p class="img-text3-text3">Viverra tristique gravida dolor vel aenean egestas libero enim consequat arcu augue euismod est.</p>
+                                        <div class="img-text3-text4">
+                                            <div class="person3">
+                                                <div class="foto3"><img src="{% static 'image/profile-man.png' %}" alt="foto" id="foto3"></div>
+                                                <div class="name3">John Carter</div>
+                                            </div>
+                                            <div class="time3">
+                                                <div class="icon3"><img src="{% static 'image/clock.png' %}" alt="clock" id="icon3"></div>
+                                                <div class="time3-time">June 16, 2022</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+    
+                        <div class="img-text4">
+                            <a href="https://writeologytemplate.webflow.io/blog/7-great-productivity-apps-for-your-new-ipad" class="a4">
+                                <div class="division4_1 division4_2 division4_3">
+                                    <div class="img4"><img src="https://assets.website-files.com/62abc23e594f83d9d66b136f/62abe78a9617508689d8697b_ipad-apps-thumbnail-blog-writelogy-x-webflow-template.jpeg" alt="ipad and keyboard" id="img4"></div>
+    
+                                    <div class="img-text4-block-text">
+                                        <div class="img-text4-text1">RESOURCES</div>
+                                        <h2 class="img-text4-text2">7 great productivity apps for your new iPad</h2>
+                                        <p class="img-text4-text3">Viverra tristique gravida dolor vel aenean egestas libero enim consequat arcu augue euismod est.</p>
+                                        <div class="img-text4-text4">
+                                            <div class="person4">
+                                                <div class="foto4"><img src="{% static 'image/profile-women.png' %}" alt="foto" id="foto4"></div>
+                                                <div class="name4">Sophie Moore</div>
+                                            </div>
+                                            <div class="time4">
+                                                <div class="icon4"><img src="{% static 'image/clock.png' %}" alt="clock" id="icon4"></div>
+                                                <div class="time4-time">June 16, 2022</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+    
+                        <div class="img-text5">
+                            <a href="https://writeologytemplate.webflow.io/blog/how-to-create-an-organized-productivity-plan-for-the-year" class="a5">
+                                <div class="division5_1 division5_2 division5_3">
+                                    <div class="img5"><img src="https://assets.website-files.com/62abc23e594f83d9d66b136f/62abe4dc00fdd48ad3d67254_productivity-plan-thumbnail-blog-writelogy-x-webflow-template-.jpg" alt="human write on paper with coffe" id="img5"></div>
+    
+                                    <div class="img-text5-block-text">
+                                        <div class="img-text5-text1">GUIDES</div>
+                                        <h2 class="img-text5-text2">How to create an organized productivity plan for the year</h2>
+                                        <p class="img-text5-text3">Viverra tristique gravida dolor vel aenean egestas libero enim consequat arcu augue euismod est.</p>
+                                        <div class="img-text5-text4">
+                                            <div class="person5">
+                                                <div class="foto5"><img src="{% static 'image/profile-man.png' %}" alt="foto" id="foto5"></div>
+                                                <div class="name5">John Carter</div>
+                                            </div>
+                                            <div class="time5">
+                                                <div class="icon5"><img src="{% static 'image/clock.png' %}" alt="clock" id="icon5"></div>
+                                                <div class="time5-time">June 16, 2022</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>    
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="block-block">
+                    <a href="https://writeologytemplate.webflow.io" class="logo-block"><img src="https://dc-prod-blog.sfo2.digitaloceanspaces.com/uploads/2015/07/Coka-Cola-logo.jpg" alt="Coka-Cola-logo" id="Coka-Cola-logo"></a>
+                    <p>Tellus id nisl blandit vitae quam magna nisl aliquet aliquam arcu ultricies commodo felisoler massa ipsum erat non sit amet.</p>
+                    <form class="form"><input type="search" placeholder="Search articles" class="input"></form>
+                    <div class="line"></div>
+                    <div class="cells-3">
+                        <div class="cells1"><a href="https://writeologytemplate.webflow.io/blog-post-categories/tips">TIPS</a></div>
+                        <div class="cells2"><a href="https://writeologytemplate.webflow.io/blog-post-categories/resources">RESOURCES</a></div>
+                        <div class="cells3"><a href="https://writeologytemplate.webflow.io/blog-post-categories/guides">GUIDES</a></div>
+                    </div>
+                    <div class="text-in-img">
+                        <a href="https://writeologytemplate.webflow.io/blog/how-to-choose-the-best-management-software" class="a-in-img">
+                            <div class="text-in-img1">
+                                <div class="text-in-img-1">RESOURCES</div>
+                                <h2 class="text-in-img-2">How to choose the best management software</h2>
+                            </div>
+                            <img src="https://assets.website-files.com/62abc23e594f83d9d66b136f/62abfe89ab6b229bab1ed420_management-software-featured-blog-writelogy-x-webflow-template.jpg" alt="macbook" id="macbook">
+                        </a>
+                    </div>
+                    <h2 class="text-h2">Popular articles</h2>
+                    <div class="mini-img">
+                        <div class="mini-img1">
+                            <a href="https://writeologytemplate.webflow.io/blog/10-best-collaboration-software-for-your-team" id="mini-img1">
+                                <div class="mini-img-1"><img src="https://assets.website-files.com/62abc23e594f83d9d66b136f/62abe3a09177383d10eae70a_collaboration-software-thumbnail-blog-writelogy-x-webflow-template-.jpg" alt="macbook and human" class="mini-img-1-1"></div>
+                                <div class="mini-text-1"><h3 class="mini-text-1-1">10 Best collaboration software for your team</h3></div>
+                            </a>
+                        </div>
+                        <div class="mini-img2">
+                            <a href="https://writeologytemplate.webflow.io/blog/a-complete-guide-to-learn-project-management" id="mini-img2">
+                                <div class="mini-img-2"><img src="https://assets.website-files.com/62abc23e594f83d9d66b136f/62abe33779b3d5971674d153_project-management-thumbnail-blog-writelogy-x-webflow-template-.jpg" alt="ipad and keyboard" class="mini-img-2-1"></div>
+                                <div class="mini-text-2"><h3 class="mini-text-2-1">A complete guide to learn project management</h3></div>
+                            </a>
+                        </div>
+                        <div class="mini-img3">
+                            <a href="https://writeologytemplate.webflow.io/blog/how-time-tracking-can-improve-team-management" id="mini-img3">
+                                <div class="mini-img-3"><img src="https://assets.website-files.com/62abc23e594f83d9d66b136f/62abe1c991773849cceae17c_time-tracking-thumbnail-blog-writelogy-x-webflow-template-.jpg" alt="human write" class="mini-img-3-1"></div>
+                                <div class="mini-text-3"><h3 class="mini-text-3-1">How time tracking can improve team management</h3></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="block5">
+        <div class="premium-content">
+            <div class="text-center-block">
+                <div class="text-center">
+                    <h2>Subscribe to unlock premium content</h2>
+                    <p>Sed at tellus, pharetra lacus, aenean risus non nisl ultricies commodo diam aliquet arcu enim eu leo porttitor habitasse adipiscing porttitor varius ultricies facilisis viverra lacus neque.</p>
+                </div>
+            </div>
+            <div class="premium-content-img">
+                <div class="flex">
+                    <a href="https://writeologytemplate.webflow.io/subscribe" id="premium-content-a">
+                        <img src="{% static 'image/lock.png' %}" alt="lock" class="lock">
+                        Unlock content
+                    </a>
+                    <div class="grid">
+                        <div class="premium-img-1">
+                            <div class="premium-text-1-0">
+                                <div class="TIPS1">TIPS</div>
+                                <h2 class="premium-text-1-1">A comprehensive guide on Agile development</h2>
+                            </div>
+                            <img src="https://assets.website-files.com/62abc23e594f83d9d66b136f/62b277391fbbeb861ecc93ea_agile-development-thumbnail-blog-writelogy-x-webflow-template.jpeg" alt="macbook and women smile" class="women-smile-img">
+                        </div>
+                        <div class="premium-img-2">
+                            <div class="premium-text-2-0">
+                                <div class="TIPS2">TIPS</div>
+                                <h2 class="premium-text-2-1">10 Productivity tools that are worth checking out</h2>
+                            </div>
+                            <img src="https://assets.website-files.com/62abc23e594f83d9d66b136f/62b27251d79e456ff4bdf62a_productivity-tools-thumbnail-blog-writelogy-x-webflow-template.jpeg" alt="ipad and keyboard" class="ipad-keyboard-img">
+                        </div>
+                        <div class="premium-img-3">
+                            <div class="premium-text-3-0">
+                                <div class="RESOURCES1">RESOURCES</div>
+                                <h2 class="premium-text-3-1">Top 7 Must have management tools for productivity</h2>
+                            </div>
+                            <img src="https://assets.website-files.com/62abc23e594f83d9d66b136f/62b2722af2243fa1008554ae_management-tools-thumbnail.jpeg" alt="macbook, phone and coffe" class="macbook-phone-coffe">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-footer">
+        <div class="footer-1">
+            <div class="footer-1-1">
+                <div class="footer-1-1-1">
+                    <h2 class="footer-text-h2">Subscribe to our newsletter</h2>
+                    <p class="footer-text-p">Lorem ipsum dolor sit amet consectetur adipiscing elit phasellus amet dui quam vitae quis leo velit aliquam.</p>
+                    <div class="form-gmail">
+                        <form>
+                            <div class="form-grid">
+                                <input type="email" placeholder="Enter your email addres" id="form-input-1" required>
+                                <input type="button" value="Subscribe" id="form-input-2">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="logos">
+                        <a href="https://www.facebook.com"><img src="{% static 'image/facebook.png' %}" id="logo"></a>
+                        <a href="https://twitter.com"><img src="{% static 'image/twitter.png' %}" id="logo"></a>
+                        <a href="https://www.instagram.com"><img src="{% static 'image/instagram.png' %}" id="logo"></a>
+                        <a href="https://www.linkedin.com/feed/"><img src="{% static 'image/linkedin.png' %}" id="logo"></a>
+                        <a href="https://www.youtube.com"><img src="{% static 'image/youtube.png' %}" id="logo"></a>
+                    </div>
+                </div>
+            </div>
+            <div></div>
+        </div>
+    </div>
+</body>
+</html>
